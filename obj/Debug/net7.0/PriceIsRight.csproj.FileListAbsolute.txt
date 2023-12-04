@@ -1,0 +1,14 @@
+C:\Users\micha\PriceIsRight\bin\Debug\net7.0\PriceIsRight.exe
+C:\Users\micha\PriceIsRight\bin\Debug\net7.0\PriceIsRight.deps.json
+C:\Users\micha\PriceIsRight\bin\Debug\net7.0\PriceIsRight.runtimeconfig.json
+C:\Users\micha\PriceIsRight\bin\Debug\net7.0\PriceIsRight.dll
+C:\Users\micha\PriceIsRight\bin\Debug\net7.0\PriceIsRight.pdb
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.AssemblyInfoInputs.cache
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.AssemblyInfo.cs
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.csproj.CoreCompileInputs.cache
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.dll
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\refint\PriceIsRight.dll
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.pdb
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\PriceIsRight.genruntimeconfig.cache
+C:\Users\micha\PriceIsRight\obj\Debug\net7.0\ref\PriceIsRight.dll
