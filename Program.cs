@@ -1,7 +1,9 @@
 ﻿Random rand = new Random();
 List<int> numbers = new List<int>(){25,90,5,100,15,80,35,60,20,40,75,55,95,50,85,30,65,10,45,70};
 Console.BackgroundColor=ConsoleColor.Black;
+
 int start = 0;
+int selection;
 int[] player = new int[3];
 for (int i = 1; i<=3; i++)
 {
@@ -10,7 +12,7 @@ for (int i = 1; i<=3; i++)
     int secondSpin = 0;
     int total = 0;
     Console.Write($"Player {i}, from 1-10, how hard do you want to spin the wheel? ");
-    int selection = Convert.ToInt32(Console.ReadLine());
+    selection = Convert.ToInt32(Console.ReadLine());
     firstSpin = SpinWheel(start, selection, numbers);
     start = numbers.IndexOf(firstSpin)-3;
     if (start < 0)
@@ -44,7 +46,16 @@ for (int i = 0; i<3; i++)
 {
     if (player[i] == 100)
     {
-        
+        Console.Write($"Player {i}, from 1-10, how hard do you want to spin the wheel? ");   
+        selection = Convert.ToInt32(Console.ReadLine());
+        start = numbers.IndexOf(4-3);
+        int bigMoney = SpinWheel(start,selection, numbers);
+        if (bigMoney == 100)
+            Console.WriteLine ("You won $10,000 and got 1.00 for the showdown");
+        else if (bigMoney == 5 || bigMoney == 15)
+            Console.WriteLine ($"You won $5,000 and got {bigMoney} for the showdown");
+        else    
+            Console.WriteLine ($"You didn't win any money but you got {bigMoney} for the showdown");
     }
 }
 static void displayScores(int[] player)
